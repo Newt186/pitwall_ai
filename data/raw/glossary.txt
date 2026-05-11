@@ -1,0 +1,69 @@
+UNDERCUT: A strategy where a driver pits earlier than the car ahead to gain track position. After pitting, the driver uses fresh tyres to set faster lap times. If the laps on fresh tyres are quick enough, the driver can emerge ahead when the other car eventually pits. Works best when tyre degradation is high and pit lane loss is low.
+
+OVERCUT: The opposite of an undercut. A driver stays out longer than the car ahead, using clear track to push hard on older tyres. Works when the track is slow in sector 1 and the driver ahead has high tyre deg.
+
+DRS (Drag Reduction System): A movable rear wing flap that reduces aerodynamic drag and increases straight-line speed. Activated only in designated DRS zones when a driver is within one second of the car ahead. Adds roughly 10-15 km/h on straights.
+
+VSC (Virtual Safety Car): Deployed when there is a hazard on track but a full Safety Car is not needed. All drivers must slow to a delta time. No overtaking allowed. Pit stops during VSC are popular because pit lane time loss is reduced.
+
+SAFETY CAR: A physical car that leads the field at reduced speed when there is danger on track. Field bunches up behind it. All gaps are erased. Pit stops under safety car are common to minimise time loss.
+
+PARC FERME: A set of strict regulations that freeze car setup after qualifying. Teams cannot make significant changes to the car between qualifying and the race. Introduced to prevent teams from making major setup changes overnight.
+
+TYRE COMPOUND: F1 uses five dry tyre compounds numbered C1 to C5. C1 is the hardest and most durable. C5 is the softest and fastest but degrades quickly. Each race weekend Pirelli nominates three compounds labelled HARD, MEDIUM, and SOFT.
+
+TYRE DEG (Degradation): The rate at which a tyre loses performance over laps. High deg means lap times increase quickly as the tyre wears. Factors include track temperature, car setup, driving style, and compound choice.
+
+STINT: A period of racing on one set of tyres between pit stops. A one-stop strategy has two stints. A two-stop has three stints.
+
+PIT WINDOW: The range of laps during which a pit stop is strategically optimal. Determined by tyre life, safety car probability, track position, and competitor strategy.
+
+UNDERFLOOR / FLOOR: The bottom surface of the car. In ground effect era cars, the floor generates a large portion of total downforce via venturi tunnels.
+
+DOWNFORCE: Aerodynamic force pushing the car into the track. More downforce = more grip in corners but more drag on straights.
+
+ERS (Energy Recovery System): Harvests energy from braking and the turbocharger. Stored in a battery and deployed as extra power (up to 120kW for 33 seconds per lap).
+
+MGU-H: Motor Generator Unit Heat. Recovers energy from exhaust gases passing through the turbo. Being removed from 2026 regulations.
+
+MGU-K: Motor Generator Unit Kinetic. Recovers energy under braking and deploys it as extra power.
+
+POWER UNIT: F1's hybrid engine consisting of a 1.6L V6 turbo engine, MGU-K, MGU-H, Energy Store, Control Electronics, and Exhaust System.
+
+OVERCUT: Staying out longer than rivals during a pit stop phase to gain track position through clear air and fresh tyre advantage later.
+
+FREE STOP: A pit stop made under Safety Car or VSC conditions where the time loss from stopping is minimised because the whole field is slowed down.
+
+DELTA TIME: The time difference a driver must maintain during VSC periods. Exceeding the delta (going too fast) results in a penalty.
+
+GRAINING: A tyre condition where small pieces of rubber tear from the surface and reattach, creating a bumpy surface that reduces grip. Usually temporary and clears after a few laps.
+
+BLISTERING: Heat-induced damage to the tyre surface causing bubbles. More severe than graining and does not recover. Often forces an early pit stop.
+
+MARBLES: Rubber debris that collects off the racing line. Driving on marbles dramatically reduces grip. Drivers avoid them during the race but may use them in qualifying to see if a drier line exists.
+
+TRACK EVOLUTION: As a race weekend progresses, rubber laid down by cars makes the track faster. Lap times improve across sessions due to this rubbering in effect.
+
+SNAP: When the rear of the car loses grip suddenly and the car begins to rotate. Drivers must correct with opposite steering lock to prevent a spin.
+
+PORPOISING: An aerodynamic oscillation in ground effect cars where the floor stalls and reattaches rapidly, causing the car to bounce. Major issue in early 2022 season.
+
+QUALI SIM: A practice run simulating qualifying conditions — low fuel, fresh soft tyres, pushing for a single fast lap.
+
+RACE SIM: A long practice run simulating race conditions — higher fuel, testing tyre behaviour over many laps.
+
+BOXBOX: Radio message from the pit wall telling a driver to pit immediately.
+
+INTERVAL: Time gap between two cars on track during a race.
+
+FASTEST LAP: The quickest lap recorded during the race. Since 2019 the driver who sets the fastest lap earns one bonus championship point, provided they finish in the top ten.
+
+POINTS SYSTEM: 1st=25, 2nd=18, 3rd=15, 4th=12, 5th=10, 6th=8, 7th=6, 8th=4, 9th=2, 10th=1. Plus one bonus point for fastest lap if in top ten.
+
+SPRINT RACE: A short race held on Saturday at selected rounds. Top 8 finishers score points. Does not affect Sunday race grid which is set by qualifying.
+
+PARC FERME: Controlled environment where cars are stored after qualifying. No setup changes allowed without steward permission.
+
+STEWARDS: Race officials who investigate incidents and apply penalties. Penalties include time additions, drive-throughs, stop-go penalties, and grid drops.
+
+TRACK LIMITS: Defined by white lines at the edge of the track. Drivers must keep at least two wheels within these limits or the lap time is deleted.
