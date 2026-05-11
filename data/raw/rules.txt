@@ -1,0 +1,39 @@
+RACE START PROCEDURE: Cars line up on the grid in qualifying order. A formation lap is completed before the race. Five red lights illuminate one by one then go out simultaneously to start the race. Jump starts detected by sensors result in a drive-through or stop-go penalty.
+
+PIT STOP RULES: Minimum of one pit stop required in dry races using at least two different tyre compounds. In wet races this rule may be suspended. Pit lane speed limit is 80 km/h at most circuits, 60 km/h at Monaco.
+
+TYRE RULES: Teams must use at least two of the three nominated dry compounds during a dry race. The mandatory compounds are SOFT, MEDIUM, and HARD as nominated by Pirelli for each event.
+
+SAFETY CAR RULES: All cars must form a queue behind the Safety Car. Overtaking is forbidden unless the Safety Car is returning to the pit lane. Lapped cars may be instructed to unlap themselves by passing the Safety Car.
+
+VIRTUAL SAFETY CAR RULES: Drivers must slow to a prescribed delta time. VSC periods are typically shorter than full Safety Car periods. Pit stops are advantageous under VSC due to reduced pit lane time loss.
+
+RED FLAG RULES: Race is suspended. Cars return to the pit lane or grid. Tyres and front wings may be changed. If a race is restarted, results from before the red flag count if the race cannot be resumed.
+
+FLAG RULES: Yellow flag means danger ahead, no overtaking in that zone. Double yellow means be prepared to stop. Blue flag means a faster car is approaching and the driver must let it pass. Chequered flag ends the race or session. Black flag disqualifies a driver. Black and white flag is a warning for unsporting behaviour.
+
+POINTS ELIGIBILITY: Points are awarded if at least 75 percent of the race distance is completed. Reduced points are awarded if between 25 and 75 percent is completed. No points if less than 25 percent is completed.
+
+QUALIFYING FORMAT: Q1 eliminates the five slowest drivers. Q2 eliminates the next five. Q3 has the top ten drivers fighting for pole position. The fastest lap in each segment determines grid position.
+
+DRS RULES: DRS can only be activated in designated zones. A driver must be within one second of the car ahead at the DRS detection point to activate DRS. DRS is disabled in the first two laps and when yellow flags are shown.
+
+OVERTAKING RULES: A driver must have a significant portion of their car alongside the other car before the braking zone to have the right to racing room. Forcing another car off the track or causing a collision results in a penalty.
+
+TRACK LIMITS RULES: A lap time is deleted if all four wheels go beyond the white lines at the track edge. In races, repeated track limit violations result in warnings and then time penalties.
+
+PENALTY SYSTEM: Penalties include five or ten second time additions, drive-through penalties, stop-go penalties, grid drops for the next race, and licence penalty points. Twelve penalty points in twelve months results in a one-race ban.
+
+FUEL RULES: Maximum 110kg of fuel per race. Fuel flow is limited to 100kg per hour. Cars are weighed after the race. Insufficient fuel sample results in disqualification.
+
+PARC FERME RULES: After Q2 begins, cars enter parc ferme conditions. No changes to front wing angle, suspension, ride height, tyre compounds, or other setup parameters without steward approval.
+
+CONSTRUCTORS CHAMPIONSHIP: Points from both drivers are added together. The team with the most points at the end of the season wins the Constructors Championship.
+
+DRIVERS CHAMPIONSHIP: The driver with the most points at the end of the season wins the World Drivers Championship. In case of a tie, the driver with more wins takes the title.
+
+FORMATION LAP: Completed before every race start. Drivers warm up their tyres by weaving. Any driver who fails to line up on the grid must start from the pit lane.
+
+RETIRED CAR RULES: A driver who retires from the race must park in a safe location away from the track and marshalling posts. They must not re-enter the race.
+
+TECHNICAL REGULATIONS: Cars must comply with strict dimensional and weight rules. Minimum weight including driver is 800kg. Cars are inspected in parc ferme after the race.

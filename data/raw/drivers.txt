@@ -1,0 +1,39 @@
+MAX VERSTAPPEN: Dutch driver racing for Red Bull Racing. Three-time World Champion (2021, 2022, 2023). Known for aggressive overtaking, exceptional wet weather driving, and relentless qualifying pace. Widely considered the most complete driver on the current grid. Races with car number 1.
+
+SERGIO PEREZ: Mexican driver racing for Red Bull Racing. Known as the King of the Streets for his performances on street circuits like Monaco and Baku. Strong on tyre management. Has won races at Monaco, Singapore, Baku, and Jeddah. Races with car number 11.
+
+LEWIS HAMILTON: British driver racing for Mercedes. Seven-time World Champion, the most in F1 history. Record holder for most wins, pole positions, and podiums. Known for exceptional racecraft, tyre management, and performance in changeable conditions. Moving to Ferrari in 2025. Races with car number 44.
+
+GEORGE RUSSELL: British driver racing for Mercedes. Younger teammate to Hamilton. Known for consistent qualifying performances and intelligent racecraft. Won his first race at the 2022 Brazilian Grand Prix. Races with car number 63.
+
+CHARLES LECLERC: Monegasque driver racing for Ferrari. Known for extraordinary qualifying pace, especially at Monaco where he has taken multiple pole positions. Strong on street circuits. Has won at Bahrain, Italy, Austria, and Australia. Races with car number 16.
+
+CARLOS SAINZ: Spanish driver racing for Ferrari. Known for consistency, strong race management, and performing well under pressure. Won at Silverstone 2022 and Singapore 2023. Moving to Williams in 2025. Races with car number 55.
+
+LANDO NORRIS: British driver racing for McLaren. Extremely quick over one lap and in wet conditions. Known for his entertaining personality and close friendship with Verstappen. Won his first race at the 2024 Miami Grand Prix. Races with car number 4.
+
+OSCAR PIASTRI: Australian driver racing for McLaren. Rookie of the year in 2023. Exceptionally mature racing style for his age. Won at Hungary and Azerbaijan in 2024. Races with car number 81.
+
+FERNANDO ALONSO: Spanish driver racing for Aston Martin. Two-time World Champion (2005, 2006). One of the most experienced and complete drivers in F1 history. Known for exceptional racecraft and defensive driving. Races with car number 14.
+
+LANCE STROLL: Canadian driver racing for Aston Martin. Son of team owner Lawrence Stroll. Known for strong performances on street circuits. Has taken pole at Baku and podiums in changeable conditions. Races with car number 18.
+
+ESTEBAN OCON: French driver racing for Alpine. Known for strong qualifying and ability to score points consistently in a midfield car. Won at Hungary 2021 in a strategic race. Races with car number 31.
+
+PIERRE GASLY: French driver racing for Alpine. Known for raw pace and emotional driving style. Won at Monza 2020 in one of the most dramatic races in recent memory. Races with car number 10.
+
+VALTTERI BOTTAS: Finnish driver racing for Alfa Romeo (Sauber). Former Mercedes driver and five-time runner up to Hamilton. Known for raw pace and strong qualifying but sometimes struggles with race strategy decisions. Races with car number 77.
+
+ZHOU GUANYU: Chinese driver racing for Alfa Romeo (Sauber). First Chinese driver in modern F1. Known for consistency and bringing a large fanbase from China to the sport. Races with car number 24.
+
+KEVIN MAGNUSSEN: Danish driver racing for Haas. Known for aggressive racing style and willingness to defend hard. Took a surprise pole at the 2022 Brazilian Grand Prix sprint. Races with car number 20.
+
+NICO HULKENBERG: German driver racing for Haas. The driver with the most race starts without a podium in F1 history. Highly rated for his raw speed and technical feedback. Races with car number 27.
+
+ALEXANDER ALBON: Thai-British driver racing for Williams. Known for exceptional ability to extract performance from an underperforming car. Strong in qualifying relative to car pace. Races with car number 23.
+
+LOGAN SARGEANT: American driver racing for Williams. One of the few American drivers in modern F1. Joined Williams in 2023 as part of the team's effort to grow the American fanbase ahead of the Las Vegas Grand Prix. Races with car number 2.
+
+YUKI TSUNODA: Japanese driver racing for RB (formerly AlphaTauri). Known for explosive pace and emotional radio messages. Has improved significantly since his debut in 2021. Races with car number 22.
+
+DANIEL RICCIARDO: Australian driver racing for RB. Known for his overtaking ability especially under braking, nicknamed the Honey Badger. Won at Monaco 2018 in one of the greatest drives in recent memory. Races with car number 3.
