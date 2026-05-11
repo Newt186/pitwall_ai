@@ -45,9 +45,9 @@ def build_index(all_chunks):
     return index
 
     
-
-load_f = load_texts()
-print(load_f)
+if __name__ == "__main__":
+    load_f = load_texts()
+    print(load_f)
 slice_f = split_into_chunks(load_f)
 print(slice_f)
 build_i = build_index(slice_f)
