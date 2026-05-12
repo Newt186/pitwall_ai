@@ -15,9 +15,8 @@
 
 | Name | Role | Module |
 |------|------|--------|
-| **Newt** | AI Lead | Fan Copilot (Groq + FAISS RAG) |
+| **Newt** | AI Lead | Fan Copilot (Groq + FAISS RAG) | Frontend Lead | Streamlit App + Live Pulse Charts |
 | **Rizwan** | ML Lead | Race Brain (FastF1 + XGBoost) |
-| **Krishna** | Frontend Lead | Streamlit App + Live Pulse Charts |
 
 ---
 
