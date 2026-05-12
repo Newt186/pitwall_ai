@@ -1,1 +1,7 @@
 config.py
+.env
+data/f1_cache/
+data/processed/
+models/
+__pycache__/
+*.pyc
