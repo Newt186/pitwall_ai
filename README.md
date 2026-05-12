@@ -207,5 +207,5 @@ MIT — free to use, fork, and build on.
 ---
 
 <p align="center">
-  Built by <strong>Newt</strong> and <strong>Rizwan</strong> — Hackathon 2025
+  Built by <strong>Soham</strong> and <strong>Rizwan</strong> — Hackathon 2025
 </p>
