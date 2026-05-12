@@ -107,7 +107,7 @@ elif page == "Live Pulse":
     st.caption("Telemetry visualisations powered by FastF1 data.")
 
     try:
-        df = pd.read_csv("data/processed/features.csv")
+        df = pd.read_csv("data/raw/processed/bahrain_2024_demo.csv")
 
         race_options = df["EventName"].unique().tolist()
         selected_race = st.selectbox("Select Race", race_options)
