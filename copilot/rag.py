@@ -5,8 +5,8 @@ import numpy as np
 import joblib
 from groq import Groq
 import sys
-sys.path.append('.')
-from config import GROQ_API_KEY
+import streamlit as st
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 
 read_indx = fs.read_index('models/faiss.index') #read_indx to store faiss index model 
