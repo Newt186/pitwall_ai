@@ -1,6 +1,6 @@
 import pandas as pd
 import joblib
-
+from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier, XGBRegressor
 from sklearn.metrics import (
     classification_report,
@@ -10,21 +10,10 @@ from sklearn.metrics import (
     mean_absolute_error
 )
 
-# Load data
-
 df = pd.read_csv('data/processed/features.csv')
-
-# Remove nulls
-
 df = df.dropna()
 
-# Train/test split
-
-train_df = df[df['Year'].isin([2022, 2023])]
-
-test_df = df[df['Year'] == 2024]
-
-# Features
+train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 
 features = [
     'LapNumber',
@@ -36,23 +25,13 @@ features = [
     'Position'
 ]
 
-# =============================
-# MODEL 1 — PIT STOP CLASSIFIER
-# =============================
-
 X_train = train_df[features]
 y_train = train_df['pit_next_lap']
-
 X_test = test_df[features]
 y_test = test_df['pit_next_lap']
 
-# Class imbalance ratio
-
 ratio = len(y_train[y_train == 0]) / len(y_train[y_train == 1])
-
 print("Class imbalance ratio:", ratio)
-
-# Train classifier
 
 pit_model = XGBClassifier(
     objective='binary:logistic',
@@ -64,9 +43,6 @@ pit_model = XGBClassifier(
 )
 
 pit_model.fit(X_train, y_train)
-
-# Evaluate
-
 predictions = pit_model.predict(X_test)
 
 print(classification_report(y_test, predictions))
@@ -74,19 +50,10 @@ print("Precision:", precision_score(y_test, predictions))
 print("Recall:", recall_score(y_test, predictions))
 print(confusion_matrix(y_test, predictions))
 
-# Save classifier
-
 joblib.dump(pit_model, 'models/pit_model.pkl')
-
 print("Saved pit_model.pkl")
 
-# =============================
-# MODEL 2 — POSITION PREDICTOR
-# =============================
-
 position_df = df[df['LapNumber'] > 20].copy()
-
-# Create final position target
 
 position_df['final_position'] = (
     position_df.groupby([
@@ -97,17 +64,12 @@ position_df['final_position'] = (
     .transform('last')
 )
 
-train_pos = position_df[position_df['Year'].isin([2022, 2023])]
-
-test_pos = position_df[position_df['Year'] == 2024]
+train_pos, test_pos = train_test_split(position_df, test_size=0.2, random_state=42)
 
 X_train_pos = train_pos[features]
 y_train_pos = train_pos['final_position']
-
 X_test_pos = test_pos[features]
 y_test_pos = test_pos['final_position']
-
-# Train regressor
 
 pos_model = XGBRegressor(
     n_estimators=200,
@@ -117,19 +79,10 @@ pos_model = XGBRegressor(
 )
 
 pos_model.fit(X_train_pos, y_train_pos)
-
-# Predict
-
 pos_predictions = pos_model.predict(X_test_pos)
 
-# Evaluate
-
 mae = mean_absolute_error(y_test_pos, pos_predictions)
-
 print("Position Model MAE:", mae)
 
-# Save model
-
 joblib.dump(pos_model, 'models/pos_model.pkl')
-
 print("Saved pos_model.pkl")
