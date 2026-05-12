@@ -2,6 +2,7 @@ from sentence_transformers import SentenceTransformer
 import faiss as fs
 import os
 import numpy as np
+import joblib
 
 def load_texts():
     all_text = []
@@ -44,6 +45,11 @@ def build_index(all_chunks):
     index.add(encoded_array)
     return index
 
+def save(index, all_chunks):
+            fs.write_index(index, 'models/faiss.index')
+            print("Index saved to models/faiss.index")
+            joblib.dump(all_chunks, 'models/chunks.pkl')
+            print("Chunks saved to models/chunks.pkl")
     
 if __name__ == "__main__":
     load_f = load_texts()
@@ -52,5 +58,7 @@ slice_f = split_into_chunks(load_f)
 print(slice_f)
 build_i = build_index(slice_f)
 print(build_i)
+sav = save(build_i, slice_f)
+print(sav)
     
 
