@@ -1,0 +1,12 @@
+fastf1
+groq
+faiss-cpu
+sentence-transformers
+xgboost
+scikit-learn
+streamlit
+plotly
+pandas
+numpy
+joblib
+python-dotenv
