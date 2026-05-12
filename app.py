@@ -58,7 +58,7 @@ elif page == "Race Brain":
     st.caption("Pit stop predictions and strategy insights.")
 
     drivers = ["VER", "PER", "HAM", "RUS", "LEC", "SAI", "NOR", "PIA", "ALO", "STR",
-            "OCO", "GAS", "BOT", "ZHO", "MAG", "HUL", "ALB", "SAR", "TSU", "RIC"]
+               "OCO", "GAS", "BOT", "ZHO", "MAG", "HUL", "ALB", "SAR", "TSU", "RIC"]
 
     col1, col2 = st.columns(2)
     with col1:
@@ -97,7 +97,7 @@ elif page == "Race Brain":
     st.divider()
     st.subheader("2022 Bahrain GP - Lap by Lap Predictions")
     try:
-        demo_df = pd.read_csv("data/processed/bahrain_2024_demo.csv")
+        demo_df = pd.read_csv("data/raw/processed/bahrain_2024_demo.csv")
         st.dataframe(demo_df, use_container_width=True)
     except:
         st.info("Demo data not found. Run racebrain/predict.py to generate it.")
@@ -107,29 +107,25 @@ elif page == "Live Pulse":
     st.caption("Telemetry visualisations powered by FastF1 data.")
 
     try:
-        df = pd.read_csv("data/raw/processed/bahrain_2024_demo.csv")
-
-        race_options = df["EventName"].unique().tolist()
-        selected_race = st.selectbox("Select Race", race_options)
-        race_df = df[df["EventName"] == selected_race]
+        demo_df = pd.read_csv("data/raw/processed/bahrain_2024_demo.csv")
 
         st.divider()
         st.subheader("Gap to Car Ahead")
         fig1 = go.Figure()
-        for driver in race_df["Driver"].unique():
-            d = race_df[race_df["Driver"] == driver]
+        for driver in demo_df["Driver"].unique():
+            d = demo_df[demo_df["Driver"] == driver]
             fig1.add_trace(go.Scatter(x=d["LapNumber"], y=d["gap_ahead"],
-                                    mode="lines", name=driver))
+                                      mode="lines", name=driver))
         fig1.update_layout(xaxis_title="Lap", yaxis_title="Gap (seconds)")
         st.plotly_chart(fig1, use_container_width=True)
 
         st.divider()
         st.subheader("Tyre Degradation Trends")
         fig2 = go.Figure()
-        for driver in race_df["Driver"].unique():
-            d = race_df[race_df["Driver"] == driver]
+        for driver in demo_df["Driver"].unique():
+            d = demo_df[demo_df["Driver"] == driver]
             fig2.add_trace(go.Scatter(x=d["LapNumber"], y=d["deg_rate"],
-                                    mode="lines", name=driver))
+                                      mode="lines", name=driver))
         fig2.update_layout(xaxis_title="Lap", yaxis_title="Degradation Rate")
         st.plotly_chart(fig2, use_container_width=True)
 
@@ -137,8 +133,8 @@ elif page == "Live Pulse":
         st.subheader("Tyre Stints")
         compound_colors = {0: "red", 1: "yellow", 2: "grey"}
         fig3 = go.Figure()
-        for driver in race_df["Driver"].unique():
-            d = race_df[race_df["Driver"] == driver]
+        for driver in demo_df["Driver"].unique():
+            d = demo_df[demo_df["Driver"] == driver]
             fig3.add_trace(go.Bar(
                 x=d["TyreLife"],
                 y=[driver] * len(d),
